@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.156 sec <<< FAILURE! - in TestSuite
+logintest(samplegittest.SampleGITTest)  Time elapsed: 17.387 sec  <<< FAILURE!
+java.lang.ArithmeticException: / by zero
+	at samplegittest.SampleGITTest.logintest(SampleGITTest.java:22)
+

@@ -19,6 +19,7 @@ public class SampleGITTest {
 	wd.get("https://www.google.com");
 	File src=((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
 	FileUtils.copyFile(src,new File("C:\\Seleniumworkspace\\samplegittest\\Screenshot\\img.jpg"));
+	int i=1/0;
 	}
 
 }
